@@ -1,6 +1,6 @@
-PROGRAM initial-conditions
+PROGRAM initial_conditions
 
-    INTEGER, PARAMETER :: N = 900
+    INTEGER, PARAMETER :: N = 300
     INTEGER, DIMENSION (N,N) :: CI
 
     !OPEN FILE
@@ -12,13 +12,13 @@ PROGRAM initial-conditions
         END DO      
     END DO
 
-    CI(450,450) = 1
-    CI(450,450) = 1
-    CI(450,450) = 1
-    CI(450,450) = 1
-    CI(450,450) = 1
-    CI(450,450) = 1
-    CI(450,450) = 1
+    CI(150,150)=1
+    CI(150,151)=1
+    CI(152,151)=1
+    CI(151,153)=1
+    CI(150,154)=1
+    CI(150,155)=1
+    CI(150,156)=1
 
     !EXIT
     DO j = 1, N
