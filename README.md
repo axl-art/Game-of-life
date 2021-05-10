@@ -1,4 +1,4 @@
-# Game of life in FORTRAN 90!
+# Conway's Game of Life in FORTRAN 90!
 This project establishes the rules of the game of life for Conway to obtain cellular automata.
 
 Execution:
@@ -45,4 +45,5 @@ We can visualize the results using **gnuplot** and with the following instructio
 
 With the generated images we can build a video or gif. For example:
 
-![ezgif.com-gif-maker](C:\Users\Axel\Desktop\ezgif.com-gif-maker.gif)
+![Alt text](https://media.giphy.com/media/eGwDcU4QB0QRaKVApb/source.gif)
+
